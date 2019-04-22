@@ -1,0 +1,53 @@
+.loadingmodal {
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 255, 255, 255, .8 )
+    url('http://i.stack.imgur.com/FhHRx.gif')
+    50% 50%
+    no-repeat;
+}
+
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading {
+    overflow: hidden;
+}
+
+/* Anytime the body has the loading class, our
+   modal element will be visible */
+body.loading .loadingmodal {
+    display: block;
+}
+
+body {
+    /*overflow-y: hidden;*/
+    background-color:#f1f4f9;
+}
+
+#leftPanel,#rightPanel{
+    background-color:#38425d;
+}
+
+#topPanel{
+    background-color: #f2f2f2;
+    height: 40px;
+    border: 1px solid;
+    border-color: gray;
+}
+
+.whitetext{
+    color: white;
+}
+
+select{
+    /*border: 0px;*/
+    outline: 0px;
+    background-color: #fff;
+    font-family: 'News Cycle', 'Arial Narrow Bold', sans-serif;            
+    /*font-size: 12px;*/
+}

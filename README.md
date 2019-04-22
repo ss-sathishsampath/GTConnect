@@ -9,6 +9,9 @@ Authors:  Sathish Sampath,
 	    Jenita Lydia Jebasingh(jenita.lydia17@gmail.com),
 	    Sai Tadikonda(saitadikonda001@gmail.com),
 	    Sreyas Sriram(sreyas28@gmail.com)
+
+Demo : http://advertiser-gt-aic.herokuapp.com/advertisements
+
 ```
 
 ## Getting Started
@@ -63,6 +66,8 @@ If running in another url, replace `127.0.0.1:5000`, with the respective website
 
 
 ###### Contact the authors for the Secret Key.
+
+
 
 
 
